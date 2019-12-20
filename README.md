@@ -19,11 +19,11 @@ $ piu
 2.如果当前目录，没有`language.js`文件，请根据依次录入多语言需要的参数，如图：
 
 
-![avatar](/doc/piu1.png)
+![avatar](https://raw.githubusercontent.com/jyjin/make-language-excel-piu/master/doc/piu1.png)
 
 3.全部录入完毕会在当前目录生成一个`language.js`文件
 
-![avatar](/doc/piu2.png)
+![avatar](https://raw.githubusercontent.com/jyjin/make-language-excel-piu/master/doc/piu2.png)
 > lanuage.js内容
 格式
 ```
@@ -69,12 +69,13 @@ module.exports = {
 ```
 
 5.再次执行`piu`命令
-![avatar](/doc/piu3.png)
+![avatar](https://raw.githubusercontent.com/jyjin/make-language-excel-piu/master/doc/piu3.png)
 
 会生成一个文件夹，里面有需要的多语言excel
-![avatar](/doc/piu4.png)
+![Dir](https://raw.githubusercontent.com/jyjin/make-language-excel-piu/master/doc/piu4.png)
+
 Excel内容
-![avatar](/doc/piu5.png)
+![Avatar](https://raw.githubusercontent.com/jyjin/make-language-excel-piu/master/doc/piu5.png)
 
 
 
