@@ -1,6 +1,6 @@
 ## 多语言简易Excel生成工具
 
-> 使用环境
+> 适用环境
 - window/mac/Linux
 - 机器装有node
 
