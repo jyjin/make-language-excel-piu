@@ -1,0 +1,22 @@
+{
+  "name": "make-language-excel-piu",
+  "version": "1.0.10",
+  "main": "index.js",
+  "bin": {
+    "piu": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "jyjin",
+  "license": "ISC",
+  "description": "> 使用环境 - window/mac/Linux - 机器装有node",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^4.0.1",
+    "moment": "^2.24.0",
+    "node-xlsx": "^0.15.0"
+  },
+  "devDependencies": {}
+}
