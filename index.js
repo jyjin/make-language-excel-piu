@@ -54,11 +54,11 @@ function askTask() {
 }
 
 function askPrefix() {
-  return readSyncByRl(' - 项目前缀（如h5.customer.）：\r\n'.yellow)
+  return readSyncByRl(' - 项目前缀（如h5.customer. 没有直接回车不填）：\r\n'.yellow)
 }
 
 function askModule() {
-  return readSyncByRl(' - 当前页面名称：\r\n'.yellow)
+  return readSyncByRl(' - 当前页面名称（页面模块，没有直接回车不填）：\r\n'.yellow)
 }
 
 function askConfirmCreate() {
@@ -108,6 +108,7 @@ if (!isHaveTempFile) {
   }).then(json => {
     console.log('创建成功！\n')
     console.log('请修改language.js中data后，执行piu')
+    process.exit(1);
   })
 } else {
   const make = require('./src/make.js')

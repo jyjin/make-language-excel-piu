@@ -27,8 +27,8 @@ module.exports = function () {
   // 插入数据
   let i = 0
   for (var key in data) {
-    const rowLan0 = ['', ++i, 0, prefix + page + '.' + key, local[0], data[key], 'N', 'Y']
-    const rowLan1 = ['', ++i, 0, prefix + page + '.' + key, local[1], '', 'N', 'Y']
+    const rowLan0 = ['', ++i, 0, prefix + (page ? page + '.' : '') + key, local[0], data[key], 'N', 'Y']
+    const rowLan1 = ['', ++i, 0, prefix + (page ? page + '.' : '') + key, local[1], '', 'N', 'Y']
     source.push(rowLan0, rowLan1)
   }
 
